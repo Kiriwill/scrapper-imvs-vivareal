@@ -6,8 +6,7 @@
 
 A aplicação se divide em etapas:
 
-1) Lê logradouros, numeros e idCondominios do banco
-Para cada endereço:
+1) Lê logradouros, numeros e idCondominios do banco. Para cada endereço:
     a) Busca links do condominio no Google a partir do endereço
     b) Faz raspagem dos dados do site e transforma-os em um json
     c) Executa analise dos dados (obtém moda, media, mediana, max e min)
